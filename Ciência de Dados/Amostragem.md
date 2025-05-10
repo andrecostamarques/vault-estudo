@@ -10,7 +10,6 @@
 - População heterogênea ordenada.
 - Seleciona aleatoriamente um individuo de cada grupo, são n grupos.
 - Cada grupo tem k indivíduos. k = N/n. 
-
 #### Estratificada 
 - População heterogênea por grupos.
 - Cada grupo é minimamente homogêneo entre si.
