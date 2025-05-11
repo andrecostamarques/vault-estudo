@@ -21,3 +21,13 @@ Associação linear entre duas variáveis.
 - r = 0 -> essas duas variáveis não tem correlação entre si.
 - r negativo -> Um valor vai crescer enquanto outro diminui.
 - r positivo -> ambos valores serão pequenos ou grandes, juntos.
+
+
+### Erro Padrão
+Diferente do imaginado por mim, erro padrão e desvio padrão são coisas diferentes:
+O Erro Padrão mede a precisão da média amostral como estimativa da média populacional, ou seja, é o quão perto da média populacional ele está.
+
+Ele é equacionado como:
+EP = $\frac{s}{\sqrt{n }}$, ou seja, é o desvio padrão, divido pela raiz da quantidade de amostra.
+
+Quanto maior for a amostra, menor será o erro padrão, ou seja, a média amostral fica mais confiável. Podemos concluir, que quanto maior a amostra, mais será parecida com a média populacional.
