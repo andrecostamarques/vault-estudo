@@ -1,4 +1,4 @@
-c### Critérios para o SO.
+### Critérios para o SO.
 - Recuperar e armazenar mais rápido possível
 - Uso otimizado da memória.
 	- Memória tem que ser liberada, minimizar a reservada e ocupar o mínimo possível.
@@ -64,4 +64,48 @@ A CPU que verifica o novo local de memória para acessar a nova instrução, iss
 
 A tradução pode ser uma realocação simples -> Só um OFFSET, endereço físico de inicio + endereço de memória relativo do processo.
 
-Tem outros tipos de realocação que não são só simples, imagino que tenham alguns que usem hashmap.
+Tem outros tipos de realocação que não são só simples, imagino que tenham alguns que usem Hash Map.
+
+### Latência de acesso à memória.
+Cada acesso à memória tem uma latência implicita. Por exemplo, o desbloqueio de um Mutex/Semáforo implica nessa latência.
+
+IO Bondery = Tempo da demora para acessar a memória principal.
+	IO em um Banco de Dados é relacionado ao acesso de memória principal, não sobre IO Inputs.
+
+Memória:
+- Em banco de dados é necessário você otimizar o máximo possível o requerimento da memória secundária/primária. 
+- O [[DBMS]] vai receber o pedido do Query Optimzer, assim que o pedido for feito, ele vai ter que pedir pro SO acessar por via do kernel, acessar o Hardware e buscar a informação na memória secundária. 
+- [[Acessibilidade de dados]]
+-  O [[DBMS]] tem protocolos específicos para controlar concorrências que são diferentes do SO, tudo tem que passar pelo SO.
+
+
+### Acesso à memória para Processos.
+Existe a paginação e frames.
+Caso um processo precise acessar uma página que não está mapeada ainda.
+Existe a trava daquele processo.
+Para a CPU avisar para o processo que ele pode acessar já aquela memória que foi paginada existe duas opções:
+1. Polling -> O Processo fica checando toda hora se a informação já está pronta.
+	1. "Shrek, a gente já chegou? a gente já chegou? e agora? "
+
+2. Interrupção -> Avisa o SO que a informação está disponível para acesso do processo, isso causa a interrupção de outro processo.
+	1. Todavia, o escalonador não precisa enviar o processo que quer a memória, o SO só sabe que a interrupção aconteceu.
+	LiveLock -> Existe tanta interrupção que a CPU gasta toda o processamento para lidar com as interrupções.
+
+
+Perguntar:
+Livros de Banco de dados (Tipo, infraestrutura, OLAP, SQL):
+	Sistemas de Banco de Dados - https://www.amazon.com.br/Sistemas-Banco-Dados-Ramez-Elmasri/dp/8543025001
+	
+
+Livro de estatística (Ciência/Análise de dados -> IA):
+	Python Data Science Handbook - https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057
+	Think Stats - https://www.amazon.com/Think-Stats-Exploratory-Data-Analysis/dp/1491907339
+	Statistics101 - Harvard - https://stat110.hsites.harvard.edu/
+	Probabilidade Moderna - https://www.amazon.com.br/Probabilidade-Curso-Moderno-com-Aplica%C3%A7%C3%B5es-ebook/dp/B01863RJ7Y
+	''
+
+Livros de Machine Learning:
+	Hands On Machine Learning - https://www.amazon.com/-/pt/dp/1098125975/ref=emc_bcc_2_i
+	Machine Learning Probabilistic Perspective - https://www.amazon.com.br/Machine-Learning-Probabilistic-Perspective/dp/0262018020
+	Python Machine Learning - https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1789955750
+	

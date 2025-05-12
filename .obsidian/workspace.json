@@ -8,59 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb758c9514760508",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aprendizado de Máquina"
-            }
-          },
-          {
-            "id": "be3ab23648cf73a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ciência de Dados/Tabela T Student.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tabela T Student"
-            }
-          },
-          {
-            "id": "d670c294cca86ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ciência de Dados/Tabela F.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tabela F"
-            }
-          },
-          {
             "id": "7e97b4f4976dd6ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Transformação de Dados.md",
+                "file": "Denis/Aspectos de Gerenciamento de Dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformação de Dados"
+              "title": "Aspectos de Gerenciamento de Dados"
+            }
+          },
+          {
+            "id": "f235b695da426cb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Denis/Acessibilidade de dados.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Acessibilidade de dados"
             }
           }
         ]
@@ -86,22 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "65946ab2cd585efe",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Aprendizado de Máquina"
+              "title": "Explorador de ficheiros"
             }
           },
           {
@@ -131,12 +88,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "0b89c9a9bf7b8342",
@@ -152,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Aprendizado de Máquina"
+              "title": "Backlinks"
             }
           },
           {
@@ -171,12 +126,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ciência de Dados/Aprendizado de Máquina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Aprendizado de Máquina"
+              "title": "Outgoing links"
             }
           },
           {
@@ -187,57 +141,71 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "65946ab2cd585efe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir Quick Switcher": false,
+      "graph:Abrir Visualização de diagrama de grafo": false,
+      "daily-notes:Abrir nota de hoje": false,
+      "templates:Inserir templates": false,
+      "command-palette:Abrir paleta de comando": false,
       "canvas:Create new canvas": false
     }
   },
-  "active": "bb758c9514760508",
+  "active": "7e97b4f4976dd6ad",
   "lastOpenFiles": [
-    "Ciência de Dados/attachments/Pasted image 20250510224652.png",
-    "Ciência de Dados/attachments/Pasted image 20250510221942.png",
+    "Denis/Acessibilidade de dados.md",
+    "Denis/Aspectos de Gerenciamento de Dados.md",
+    "Ciência de Dados/Revisão P1 - Somente Importante.md",
     "Ciência de Dados/Aprendizado de Máquina.md",
     "Ciência de Dados/Transformação de Dados.md",
     "Ciência de Dados/Tabela F.md",
     "Ciência de Dados/Tabela T Student.md",
+    "Denis/DBMS.md",
+    "Denis/Comunicação Inter Processos (IPC).md",
+    "Denis/Lista exercício Denis.md",
+    "Denis/Sincronização I Processos - Threads.md",
     "Ciência de Dados/Métricas Importantes.md",
+    "Ciência de Dados/attachments/Pasted image 20250510224652.png",
+    "Ciência de Dados/attachments/Pasted image 20250510221942.png",
     "Ciência de Dados/attachments/Pasted image 20250510201529.png",
     "Ciência de Dados/attachments/Pasted image 20250510201432.png",
     "Ciência de Dados/attachments/Pasted image 20250510194028.png",
     "Ciência de Dados/attachments/Pasted image 20250510192133.png",
-    "Ciência de Dados/Revisão P1 - Somente Importante.md",
-    "Ciência de Dados/Amostragem.md",
-    "Denis/Sincronização I Processos - Threads.md",
-    "Denis/Lista exercício Denis.md",
     "Denis/Kernel.md",
-    "Denis/Comunicação Inter Processos (IPC).md",
-    "Denis/Aspectos de Gerenciamento de Dados.md",
+    "Ciência de Dados/Amostragem.md",
     "Ciência de Dados/attachments/Pasted image 20250505201927.png",
     "Ciência de Dados/attachments/Pasted image 20250505203209.png",
     "Ciência de Dados/attachments/Pasted image 20250505203204.png",
     "Ciência de Dados/attachments/Pasted image 20250508192342.png",
     "Ciência de Dados/attachments",
-    "Ciência de Dados/attachments/Pasted image 20250505203202.png",
     "Sem título 1.canvas",
     "Sem título.canvas",
     "Ciência de Dados",
