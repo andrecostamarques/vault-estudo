@@ -2,7 +2,7 @@
 - Conjunto de observações denotadas por s²:
 - ![[Pasted image 20250505201927.png]]
 - x' = média das observações.
-- Desvio Padrão é s = sqrt(s²).
+- Desvio Padrão é s = $\sqrt{  (s²)}$.
 #### O que significa?
 Variância: grau de espalhamento dos dados: quanto maior, pior.
 Desvio-Padrão: Em média, os dados estão a S da media.
