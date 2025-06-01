@@ -28,3 +28,5 @@
 
 Sempre que for necessário fazer as transferências de dados, é necessário que o SO utilize syscall para essas mudanças, portanto, é por isso que o SO é de tamanha importância para melhorar a eficiência dos processos. 
 
+
+[[Não sei exatamente o nome da matéria]]

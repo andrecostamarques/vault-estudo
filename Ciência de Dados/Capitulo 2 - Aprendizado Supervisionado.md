@@ -1,6 +1,3 @@
-[[Amostragem]] 
-[[Métricas Importantes]]
-[[Transformação de Dados]]
 [[Aprendizado Supervisionado]]
 [[Regressão Linear Múltipla]]
 [[Variáveis Dummy]]

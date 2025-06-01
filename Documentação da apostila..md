@@ -6,7 +6,7 @@ Cada nota deve ter uma introdução, ela deve recapitular o que estudamos até o
 Cada nota do capitulo deve estar em uma pasta, do nome do capitulo.
 
 Ex: 
-Regressão <- Nota Introdutória
+Capitulo X - Regressão <- Nota Introdutória
 Regressão: 
 	|- Aprendizado
 	|- Regressão Linear 
