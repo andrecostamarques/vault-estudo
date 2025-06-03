@@ -13,6 +13,12 @@ Uma medida de associação entre as observações de duas variáveis.
 - ![[Pasted image 20250505202759.png]]
 - Ela mostra a média do produtos das diferenças de cada valor em relação à media da variável.
 - Ou seja: se x e y aumentarem ou diminuírem JUNTAS, a covariância será positiva, caso contrário, será negativa.
+#### Matriz de Covariância (S ou $\Sigma$):
+Lembrando o que é Covariância: 
+É a relação entre duas variáveis, ou seja, se elas são proporcionais, diretamente, inversamente ou se não há nenhuma relação entre elas.
+A matriz de covariância é onde as informações são guardadas. Ou seja, as relações entre todas as variáveis e como elas se correspondem.
+
+Dessa forma, consideramos que uma matriz de covariância é sempre simétrica, ou seja, é triangular.
 
 ### Coeficiente de correlação amostral:
 Associação linear entre duas variáveis. 
@@ -31,3 +37,23 @@ Ele é equacionado como:
 EP = $\frac{s}{\sqrt{n }}$, ou seja, é o desvio padrão, divido pela raiz da quantidade de amostra.
 
 Quanto maior for a amostra, menor será o erro padrão, ou seja, a média amostral fica mais confiável. Podemos concluir, que quanto maior a amostra, mais será parecida com a média populacional.
+
+### Multicolinearidade:
+Quando duas ou mais variáveis representam as mesmas variâncias.
+Ou seja, m² e pé², ambas representam área, são multicolineares.
+
+### Autovalores e Autovetores:
+Em uma matriz A, quadrada, ou seja, N x N.
+
+Teremos um valor $\lambda$ que seja diferente de 0.
+E teremos um vetor v qualquer diferente de 0, também.
+
+Quando a matriz transformar o vetor v, o resultado será o vetor v multiplicado por $\lambda$.
+
+Sendo redigido por: $Av = \lambda v$
+
+Ou seja, v é o autovetor da matriz A. É um vetor que ao ser modificado pela matriz, ele será igual à multiplicação escalar do Autovalor $\lambda$.
+
+### Matriz Ortogonal:
+É uma matriz onde sua inversa é igual sua transposta:
+Suas colunas são ortonormais, cada coluna é um vetor unitário e todas as colunas são perpendiculares entre si.
