@@ -8,7 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "818bc18dc640db9c",
+            "id": "647cc7c19196142b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ciência de Dados/Aprendizado Não-Supervisionado/Componentes Principais.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Componentes Principais"
+            }
+          },
+          {
+            "id": "37ea1810d92603a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ciência de Dados/Análise de Dados/Métricas Importantes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Métricas Importantes"
+            }
+          },
+          {
+            "id": "cbfe78a3f16e6c39",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +50,21 @@
             }
           },
           {
-            "id": "647cc7c19196142b",
+            "id": "0c814f908773fc1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciência de Dados/Aprendizado Não-Supervisionado/Componentes Principais.md",
+                "file": "Ciência de Dados/quick-notes = agrupamentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Componentes Principais"
+              "title": "quick-notes = agrupamentos"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0b89c9a9bf7b8342",
@@ -184,11 +211,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "647cc7c19196142b",
+  "active": "0c814f908773fc1f",
   "lastOpenFiles": [
     "Ciência de Dados/Capitulo 3 - Aprendizado Não-Supervisionado.md",
+    "Ciência de Dados/quick-notes = agrupamentos.md",
+    "Ciência de Dados/Matemática dos Componentes Principais!.md",
     "Ciência de Dados/Aprendizado Não-Supervisionado/Componentes Principais.md",
     "Ciência de Dados/Análise de Dados/Métricas Importantes.md",
+    "Ciência de Dados/attachments/Pasted image 20250603061516.png",
+    "Ciência de Dados/attachments",
+    "Ciência de Dados/Aprendizado Não-Supervisionado/Análise de Discriminante Linear.md",
     "Ciência de Dados/Aprendizado Não-Supervisionado/attachments/Pasted image 20250602190709.png",
     "Ciência de Dados/Aprendizado Não-Supervisionado/attachments/Pasted image 20250601155653.png",
     "Ciência de Dados/Aprendizado Não-Supervisionado/attachments",
@@ -204,7 +236,6 @@
     "Denis/Acessibilidade de dados.md",
     "Denis/Kernel 1.md",
     "Documentação da apostila..md",
-    "Ciência de Dados/Aprendizado Não-Supervisionado/Análise de Discriminante Linear.md",
     "Ciência de Dados/Capítulo 1 - Análise de Dados.md",
     "Ciência de Dados/Aprendizado Não-Supervisionado",
     "Ciência de Dados/Aprendizado Supervisionado/Variáveis Dummy.md",
@@ -227,11 +258,8 @@
     "Ciência de Dados/Análise de Dados/attachments/Pasted image 20250510201529.png",
     "Ciência de Dados/Análise de Dados/attachments/Pasted image 20250510201432.png",
     "Ciência de Dados/Análise de Dados/attachments/Pasted image 20250510194028.png",
-    "Ciência de Dados/Análise de Dados/attachments/Pasted image 20250510192133.png",
     "Ciência de Dados/Análise de Dados/attachments",
     "Ciência de Dados",
-    "Denis/Revisão pra prova - Organização de Links.md",
-    "Denis",
-    "Everton"
+    "Denis"
   ]
 }

@@ -57,3 +57,13 @@ Ou seja, v é o autovetor da matriz A. É um vetor que ao ser modificado pela ma
 ### Matriz Ortogonal:
 É uma matriz onde sua inversa é igual sua transposta:
 Suas colunas são ortonormais, cada coluna é um vetor unitário e todas as colunas são perpendiculares entre si.
+
+### Matriz Identidade:
+Uma matriz que é repleta de 0s, e a diagonal principal preenchidas com 1.
+Ela representa o 1 no mundo das matrizes.
+
+### Matriz R
+A Matriz de Covariância Amostral porém normalizada com a média e o Desvio Padrão, não precisa saber muito mais que isso.
+
+Em que: $$ Z_{i} = \frac {Xi-\overline {Xi}}{\sqrt{ S_{ii} }}$$
+**Acrescentar aqui depois**

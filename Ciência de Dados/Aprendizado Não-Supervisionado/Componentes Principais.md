@@ -126,7 +126,7 @@ Dessa forma temos o calculo de v, $\lambda$, podendo descobrir todos os Componen
 OS autovalores ($\lambda$) representam justamente a variância do n-ésimo CP. 
 Então, a variância amostral total dos CPs é igual a somatória de todos os $\lambda_i$, ou $S²_1 + S²_2 + . . . + S²_n$.
 
-
-
-
 # O que veremos em frente?
+Agora já entendemos como funciona a Análise de Componentes Principais, como funciona o algoritmo de seleção e para que usamos!
+
+Agora, vamos estudar a matemática por trás desse conteúdo!
